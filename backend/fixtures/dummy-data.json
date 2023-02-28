@@ -1,0 +1,499 @@
+[
+	{
+		"model": "users.user",
+		"pk": 2,
+		"fields": {
+			"name": "Mike Tyson",
+			"email": "miketyson@gmail.com",
+			"password": "pbkdf2_sha256$260000$eGavzQYTjZnCphSFkKsdAR$7QRcbN3P1XfAgXoyAP+k9gxWV2oko9MazZ6RJEjl3T8=",
+			"budget": 15000,
+			"token": "faa3317f5382c2ad12f33ca95970edb4e4300a27c6b7c5c46f960e48b939",
+			"profile": "image/upload/v1634639916/wbidzsygiw4np4c8m2i8.jpg",
+			"token_expires": "2021-10-30T06:14:38.038Z",
+			"created_at": "2021-10-12T10:34:31.271Z",
+			"updated_at": "2021-10-23T06:33:21.442Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 1,
+		"fields": {
+			"name": "Utility",
+			"color_code": "#acf86b",
+			"created_at": "2021-10-12T10:50:19.156Z",
+			"updated_at": "2021-10-20T02:57:01.911Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 2,
+		"fields": {
+			"name": "Food",
+			"color_code": "#7410ea",
+			"created_at": "2021-10-12T10:50:26.908Z",
+			"updated_at": "2021-10-20T02:56:56.826Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 3,
+		"fields": {
+			"name": "Transportation",
+			"color_code": "#8e4737",
+			"created_at": "2021-10-12T10:50:30.255Z",
+			"updated_at": "2021-10-20T02:56:34.844Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 4,
+		"fields": {
+			"name": "Education",
+			"color_code": "#39f590",
+			"created_at": "2021-10-12T10:50:34.543Z",
+			"updated_at": "2021-10-20T02:56:28.763Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 5,
+		"fields": {
+			"name": "Medical",
+			"color_code": "#a5edc5",
+			"created_at": "2021-10-12T10:50:39.298Z",
+			"updated_at": "2021-10-20T02:56:22.554Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 7,
+		"fields": {
+			"name": "Internet & TV",
+			"color_code": "#008000",
+			"created_at": "2021-10-12T10:50:45.826Z",
+			"updated_at": "2021-10-22T05:56:08.816Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 9,
+		"fields": {
+			"name": "Entertainment",
+			"color_code": "#458a70",
+			"created_at": "2021-10-12T10:50:52.942Z",
+			"updated_at": "2021-10-20T02:55:55.813Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 13,
+		"fields": {
+			"name": "Salary",
+			"color_code": "#dffeca",
+			"created_at": "2021-10-12T10:51:08.211Z",
+			"updated_at": "2021-10-20T02:55:28.243Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 14,
+		"fields": {
+			"name": "Other",
+			"color_code": "#a60864",
+			"created_at": "2021-10-12T10:51:11.994Z",
+			"updated_at": "2021-10-20T02:55:20.921Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 3,
+		"fields": {
+			"name": "Freelance",
+			"user": 2,
+			"category": 13,
+			"type": "income",
+			"amount": 1500,
+			"date": "2021-10-12",
+			"created_at": "2021-10-12T11:07:18.918Z",
+			"updated_at": "2021-10-12T11:07:18.918Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 4,
+		"fields": {
+			"name": "Dinner",
+			"user": 2,
+			"category": 2,
+			"type": "expense",
+			"amount": 25,
+			"date": "2021-10-12",
+			"created_at": "2021-10-12T11:16:15.507Z",
+			"updated_at": "2021-10-12T11:16:15.507Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 5,
+		"fields": {
+			"name": "Electricity Bill",
+			"user": 2,
+			"category": 1,
+			"type": "expense",
+			"amount": 75,
+			"date": "2021-10-12",
+			"created_at": "2021-10-12T11:16:43.122Z",
+			"updated_at": "2021-10-12T11:16:43.122Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 6,
+		"fields": {
+			"name": "Internet Bill",
+			"user": 2,
+			"category": 7,
+			"type": "expense",
+			"amount": 160,
+			"date": "2021-10-12",
+			"created_at": "2021-10-12T11:16:59.954Z",
+			"updated_at": "2021-10-12T11:16:59.954Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 8,
+		"fields": {
+			"name": "Bus",
+			"user": 2,
+			"category": 3,
+			"type": "expense",
+			"amount": 21,
+			"date": "2021-10-15",
+			"created_at": "2021-10-16T06:12:27.089Z",
+			"updated_at": "2021-10-16T06:13:38.242Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 9,
+		"fields": {
+			"name": "First Launch",
+			"user": 2,
+			"category": 13,
+			"type": "income",
+			"amount": 2500,
+			"date": "2021-10-18",
+			"created_at": "2021-10-18T02:24:04.816Z",
+			"updated_at": "2021-10-18T02:24:04.816Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 10,
+		"fields": {
+			"name": "Breakfast",
+			"user": 2,
+			"category": 2,
+			"type": "expense",
+			"amount": 1000,
+			"date": "2021-10-19",
+			"created_at": "2021-10-18T02:24:23.173Z",
+			"updated_at": "2021-10-22T05:10:28.795Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 11,
+		"fields": {
+			"name": "Water Bill",
+			"user": 2,
+			"category": 1,
+			"type": "expense",
+			"amount": 80,
+			"date": "2021-09-15",
+			"created_at": "2021-10-18T02:33:20.649Z",
+			"updated_at": "2021-10-20T04:43:17.861Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 12,
+		"fields": {
+			"name": "Big Lunch",
+			"user": 2,
+			"category": 2,
+			"type": "expense",
+			"amount": 40,
+			"date": "2021-10-18",
+			"created_at": "2021-10-18T02:33:51.044Z",
+			"updated_at": "2021-10-18T02:33:51.044Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 13,
+		"fields": {
+			"name": "Bus",
+			"user": 2,
+			"category": 3,
+			"type": "expense",
+			"amount": 5,
+			"date": "2021-10-18",
+			"created_at": "2021-10-18T02:34:02.957Z",
+			"updated_at": "2021-10-18T02:34:02.957Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 14,
+		"fields": {
+			"name": "Headache Meds",
+			"user": 2,
+			"category": 5,
+			"type": "expense",
+			"amount": 30,
+			"date": "2021-10-18",
+			"created_at": "2021-10-18T02:34:22.325Z",
+			"updated_at": "2021-10-18T02:34:22.325Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 17,
+		"fields": {
+			"name": "Steam workshop",
+			"user": 2,
+			"category": 9,
+			"type": "expense",
+			"amount": 2000,
+			"date": "2021-10-18",
+			"created_at": "2021-10-18T02:37:30.908Z",
+			"updated_at": "2021-10-22T05:10:37.546Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 22,
+		"fields": {
+			"name": "Freelance",
+			"user": 2,
+			"category": 13,
+			"type": "income",
+			"amount": 2500,
+			"date": "2021-10-18",
+			"created_at": "2021-10-18T02:46:13.233Z",
+			"updated_at": "2021-10-18T02:46:13.233Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 23,
+		"fields": {
+			"name": "Sell Bike",
+			"user": 2,
+			"category": 14,
+			"type": "income",
+			"amount": 500,
+			"date": "2021-10-18",
+			"created_at": "2021-10-18T02:46:42.980Z",
+			"updated_at": "2021-10-18T02:46:42.980Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 24,
+		"fields": {
+			"name": "New Router",
+			"user": 2,
+			"category": 7,
+			"type": "income",
+			"amount": 50,
+			"date": "2021-10-18",
+			"created_at": "2021-10-18T04:43:26.443Z",
+			"updated_at": "2021-10-18T04:43:26.443Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 25,
+		"fields": {
+			"name": "Train",
+			"user": 2,
+			"category": 3,
+			"type": "expense",
+			"amount": 25,
+			"date": "2021-10-20",
+			"created_at": "2021-10-20T03:11:12.041Z",
+			"updated_at": "2021-10-20T03:11:12.041Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 26,
+		"fields": {
+			"name": "Taxi to work",
+			"user": 2,
+			"category": 3,
+			"type": "expense",
+			"amount": 30,
+			"date": "2021-10-20",
+			"created_at": "2021-10-20T03:11:32.397Z",
+			"updated_at": "2021-10-20T03:11:32.397Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 27,
+		"fields": {
+			"name": "Bus",
+			"user": 2,
+			"category": 3,
+			"type": "expense",
+			"amount": 20,
+			"date": "2021-09-15",
+			"created_at": "2021-10-22T05:03:44.700Z",
+			"updated_at": "2021-10-22T05:03:44.700Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 28,
+		"fields": {
+			"name": "Burger",
+			"user": 2,
+			"category": 2,
+			"type": "expense",
+			"amount": 10,
+			"date": "2021-08-16",
+			"created_at": "2021-10-22T05:04:07.849Z",
+			"updated_at": "2021-10-22T05:04:07.849Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 29,
+		"fields": {
+			"name": "Book",
+			"user": 2,
+			"category": 4,
+			"type": "expense",
+			"amount": 26,
+			"date": "2021-07-14",
+			"created_at": "2021-10-22T05:05:12.050Z",
+			"updated_at": "2021-10-22T05:05:12.050Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 30,
+		"fields": {
+			"name": "i-cream",
+			"user": 2,
+			"category": 2,
+			"type": "expense",
+			"amount": 15,
+			"date": "2021-10-12",
+			"created_at": "2021-10-22T05:05:47.364Z",
+			"updated_at": "2021-10-22T06:21:04.342Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 31,
+		"fields": {
+			"name": "Sandwich",
+			"user": 2,
+			"category": 2,
+			"type": "expense",
+			"amount": 16,
+			"date": "2021-07-21",
+			"created_at": "2021-10-22T05:06:52.065Z",
+			"updated_at": "2021-10-22T05:06:52.065Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 32,
+		"fields": {
+			"name": "Pill",
+			"user": 2,
+			"category": 5,
+			"type": "expense",
+			"amount": 2000,
+			"date": "2021-08-17",
+			"created_at": "2021-10-22T05:07:41.488Z",
+			"updated_at": "2021-10-22T05:07:41.488Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 33,
+		"fields": {
+			"name": "TV",
+			"user": 2,
+			"category": 7,
+			"type": "expense",
+			"amount": 2000,
+			"date": "2021-09-09",
+			"created_at": "2021-10-22T05:08:26.966Z",
+			"updated_at": "2021-10-22T05:08:26.966Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 34,
+		"fields": {
+			"name": "Salary",
+			"user": 2,
+			"category": 13,
+			"type": "income",
+			"amount": 3300,
+			"date": "2021-09-09",
+			"created_at": "2021-10-22T05:09:08.058Z",
+			"updated_at": "2021-10-22T05:12:16.823Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 35,
+		"fields": {
+			"name": "OT",
+			"user": 2,
+			"category": 13,
+			"type": "income",
+			"amount": 3500,
+			"date": "2021-07-02",
+			"created_at": "2021-10-22T05:09:24.031Z",
+			"updated_at": "2021-10-22T05:10:09.162Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 36,
+		"fields": {
+			"name": "TV",
+			"user": 2,
+			"category": 7,
+			"type": "expense",
+			"amount": 3000,
+			"date": "2021-07-08",
+			"created_at": "2021-10-22T05:09:48.444Z",
+			"updated_at": "2021-10-22T05:09:48.444Z"
+		}
+	},
+	{
+		"model": "transactions.transaction",
+		"pk": 37,
+		"fields": {
+			"name": "Freelance",
+			"user": 2,
+			"category": 13,
+			"type": "income",
+			"amount": 4400,
+			"date": "2021-08-11",
+			"created_at": "2021-10-22T05:11:36.538Z",
+			"updated_at": "2021-10-22T05:12:28.204Z"
+		}
+	}
+]
